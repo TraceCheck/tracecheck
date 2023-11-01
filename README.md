@@ -20,24 +20,26 @@ In short, TraceCheck’s blockchain integration guarantees a secure, transparent
 
 As TraceCheck is a blockchain-based platform, it requires offline installation. To use TraceCheck, follow these steps:
 
+In this project, we've opted to use Yarn as our package manager due to its faster and more reliable dependency resolution, as well as its robust caching mechanism, which leads to quicker and more consistent builds.
+
 1. **Clone the Repository**: Begin by cloning the TraceCheck repository to your local machine.
 
-    ```bash
-    git clone https://github.com/abhirrajput210/Trace_Check.git
-    ```
+   ```bash
+   git clone https://github.com/abhirrajput210/Trace_Check.git
+   ```
 
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies.
 
-    ```bash
-    cd Trace_Check
-    npm install
-    ```
+   ```bash
+   cd Trace_Check
+   yarn
+   ```
 
 3. **Start the Application**: Once the dependencies are installed, you can start the application.
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   yarn start
+   ```
 
 4. **Access the App**: Open your web browser and go to [http://localhost:3000](http://localhost:3000) to access TraceCheck.
 
